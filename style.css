@@ -1,0 +1,123 @@
+@import 'https://fonts.googleapis.com/css?family=Lato:400,700';
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #eee;
+  font-family: 'Lato', sans-serif;
+}
+header {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  background-color: #eee;
+}
+#header-img {
+  float: left;
+  margin-top: 20px;
+  width: 200px;
+}
+#nav-bar {
+  top: 0;
+  display: flex;
+  justify-content: flex-end;
+  
+}
+.nav-link {
+  text-decoration: none;
+  padding: 20px;
+  color: black;
+  
+}
+#Features {
+  width: 65%;
+  margin: auto;
+  padding: 20px;
+  
+}
+div p{ 
+margin-top: 10px;
+margin-bottom: 20px;
+}
+#video {
+  padding: 20px;
+  margin: 10px;
+  border: none;
+  width: 45%;  
+}
+@media screen and (min-width: 480px){
+  body
+  {
+  background-color: #ccc;
+  }
+}
+li a{
+  margin: 5px;
+  display: block;
+  list-style-type: none;
+float: right;
+}
+#HowItWorks{
+  display: flex;
+  justify-content: center;
+}
+#Pricing {
+  display: flex;
+  justify-content: center;
+
+}
+.box {
+  padding: 10px;
+  max-width: 25%;
+  border: 1px solid black;
+  margin: 10px;
+  
+}
+.box  h3 {
+  background: #bbb;
+}
+.box p {
+  text-align: center;
+}
+#price {
+  margin-top: 4px;
+  background: none;
+  text-align: center; 
+}
+#email {
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+#form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#submit {
+  border: none;
+  border-radius: 2px;
+  padding: 5px;
+  display: block;
+  width: auto;
+  margin: auto;
+  background: yellow;
+}
+footer {
+  background: #aaa;
+}
+ul{
+  display: flex;
+  justify-content: flex-end;
+}
+li {
+  display:block;
+  padding: 5px;
+  list-style-type: none;
+}
+footer p{
+  display: flex;
+  justify-content: flex-end;
+}
